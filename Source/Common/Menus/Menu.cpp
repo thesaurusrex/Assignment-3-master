@@ -173,9 +173,6 @@ void Menu::addButton(UIButton* button)
         //
         float spacer = getHeight() * MENU_ITEMS_SPACER_PERCENTAGE;
         
-        
-        
-        
         float startingY = (m_Title != NULL ? m_TitleY + m_Title->getSourceHeight() : 0.0f) + spacer;
         float availableHeight = getHeight() - startingY;
         float totalHeight = spacer * m_Buttons.size();

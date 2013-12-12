@@ -77,6 +77,12 @@
     <Filter Include="Source Files\Constants\Resources">
       <UniqueIdentifier>{7e79ef44-6581-4982-82cd-ac848cf3e989}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Game\Pickups">
+      <UniqueIdentifier>{d1717d60-74e8-4c71-84b8-b18605ac192b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Towers">
+      <UniqueIdentifier>{ff4d9061-2eb3-4313-8f76-2ca3555ea76f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -253,9 +259,6 @@
     <ClCompile Include="..\..\Common\Game\Player.cpp">
       <Filter>Source Files\Game</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\Game\Tiles\Tile.cpp">
-      <Filter>Source Files\Game\Tiles</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Common\Menus\MainMenu.cpp">
       <Filter>Source Files\Menus</Filter>
     </ClCompile>
@@ -307,10 +310,64 @@
     <ClCompile Include="..\..\Common\Menus\SplashMenu.cpp">
       <Filter>Source Files\Menus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\Menus\LoadGameMenu.cpp">
+    <ClCompile Include="..\..\Common\UI\UIFont.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\PathFinder.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\SettingsMenu.cpp">
       <Filter>Source Files\Menus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Common\Menus\SaveGameMenu.cpp">
+    <ClCompile Include="..\..\Common\Menus\Highscores.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\PathNode.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Tiles\Tile.cpp">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Babysitter.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Creep.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\LevelSelectMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Utils\Math\GDRandom.cpp">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Utils\Math\GDRandomSearch.cpp">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\PauseScreen.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Pickups\Pickup.cpp">
+      <Filter>Source Files\Game\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Pickups\GoldPickup.cpp">
+      <Filter>Source Files\Game\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Projectile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Castle.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\YouLose.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Game\Towers\Tower.cpp">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\GameInfoSplash.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Menus\WinScreen.cpp">
       <Filter>Source Files\Menus</Filter>
     </ClCompile>
   </ItemGroup>
@@ -492,9 +549,6 @@
     <ClInclude Include="..\..\Common\Game\Tiles\GroundTile.h">
       <Filter>Source Files\Game\Tiles</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\Game\Tiles\Tile.h">
-      <Filter>Source Files\Game\Tiles</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Common\Menus\MainMenu.h">
       <Filter>Source Files\Menus</Filter>
     </ClInclude>
@@ -543,10 +597,64 @@
     <ClInclude Include="..\..\Common\Menus\SplashMenu.h">
       <Filter>Source Files\Menus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\Menus\LoadGameMenu.h">
+    <ClInclude Include="..\..\Common\UI\UIFont.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\PathFinder.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\SettingsMenu.h">
       <Filter>Source Files\Menus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Common\Menus\SaveGameMenu.h">
+    <ClInclude Include="..\..\Common\Menus\Highscores.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\PathNode.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Tiles\Tile.h">
+      <Filter>Source Files\Game\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Babysitter.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Creep.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\LevelSelectMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Math\GDRandom.h">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils\Math\GDRandomSearch.h">
+      <Filter>Source Files\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\PauseScreen.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Pickups\Pickup.h">
+      <Filter>Source Files\Game\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Pickups\GoldPickup.h">
+      <Filter>Source Files\Game\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Projectile.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Castle.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\YouLose.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Game\Towers\Tower.h">
+      <Filter>Source Files\Game\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\GameInfoSplash.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Menus\WinScreen.h">
       <Filter>Source Files\Menus</Filter>
     </ClInclude>
   </ItemGroup>
@@ -560,5 +668,6 @@
     <None Include="..\..\Common\Libraries\jsoncpp\json_valueiterator.inl">
       <Filter>Libraries\jsoncpp</Filter>
     </None>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

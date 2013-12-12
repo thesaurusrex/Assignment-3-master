@@ -1,3 +1,15 @@
+/*
+RIGHTS:			Copyright (c) 2013 Algonquin College. All rights reserved.
+STUDENT:		Breanna Henry
+CREATION DATE:	WHO KNOWS
+COURSE NUMBER:	GAM1514
+PROFESSOR:		Bradley Flood
+PURPOSE:		WIN32 Constants
+MODIFIED:		by Breanna, created by Brad
+*/
+
+
+//DEFINE
 #ifndef WIN32_CONSTANTS_H
 #define WIN32_CONSTANTS_H
 

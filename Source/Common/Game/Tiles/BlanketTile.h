@@ -1,17 +1,21 @@
 /*
-NAME:	Breanna Henry
-DATE:	11/3/2013
-PURP:	Blanket Tiles
-RITE:	Copyright (c) 2013 Algonquin College. All rights reserved.
+RIGHTS:			Copyright (c) 2013 Algonquin College. All rights reserved.
+STUDENT:		Breanna Henry
+CREATION DATE:	11/3/2013
+COURSE NUMBER:	GAM1514
+PROFESSOR:		Bradley Flood
+PURPOSE:		blanket tile
+MODIFIED:		12/10/2013
+				-Added "Tower" type stuff
 */
 
 
+//DEFINE
 #ifndef BLANKET_TILE_H
 #define BLANKET_TILE_H
 
-//Inherit from Tile
+//INCLUDE
 #include "Tile.h"
-
 
 class BlanketTile : public Tile
 {

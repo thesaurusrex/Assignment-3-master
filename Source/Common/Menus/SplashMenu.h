@@ -1,9 +1,13 @@
 /*
 NAME:	Breanna Henry
-DATE:	11/10/2013
-PURP:	Splash menu
+DATE:	11/16/2013
+PURP:	SPLASH screen
 RITE:	Copyright (c) 2013 Algonquin College. All rights reserved.
 */
+
+
+#ifndef __GAM_1514_OSX_Game__SplashMenu__
+#define __GAM_1514_OSX_Game__SplashMenu__
 
 #include "Menu.h"
 
@@ -16,11 +20,7 @@ public:
     
     const char* getName();
 
-	void paint();
-
 	void keyUpEvent(int keyCode);
-
-private:
-	//Background texture
-	OpenGLTexture* m_SplashBackground;
 };
+
+#endif

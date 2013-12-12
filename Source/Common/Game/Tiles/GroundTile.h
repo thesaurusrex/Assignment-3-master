@@ -1,17 +1,21 @@
 /*
-NAME:	Bradley Flood
-DATE:	7/3/2013
-PURP:	Ground Tiles
-RITE:	Copyright (c) 2013 Algonquin College. All rights reserved.
+RIGHTS:			Copyright (c) 2013 Algonquin College. All rights reserved.
+STUDENT:		Breanna Henry
+CREATION DATE:	11/3/2013
+COURSE NUMBER:	GAM1514
+PROFESSOR:		Bradley Flood
+PURPOSE:		Basic ground tile
+MODIFIED:		12/10/2013
+				-Added "Tower" type stuff
 */
 
 
+//DEFINE
 #ifndef GROUND_TILE_H
 #define GROUND_TILE_H
 
-//Inherit from Tile
+//INCLUDE
 #include "Tile.h"
-
 
 class GroundTile : public Tile
 {

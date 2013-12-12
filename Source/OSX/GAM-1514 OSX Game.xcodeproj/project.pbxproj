@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B9399A81833DE6900EAC0A1 /* UIFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B9399A61833DE6800EAC0A1 /* UIFont.cpp */; };
+		5BAC03F81858D08C0013CCD5 /* Babysitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03D41858D08B0013CCD5 /* Babysitter.cpp */; };
+		5BAC03F91858D08C0013CCD5 /* Castle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03D61858D08B0013CCD5 /* Castle.cpp */; };
+		5BAC03FA1858D08C0013CCD5 /* Creep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03D81858D08B0013CCD5 /* Creep.cpp */; };
+		5BAC03FB1858D08C0013CCD5 /* PathFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03DA1858D08B0013CCD5 /* PathFinder.cpp */; };
+		5BAC03FC1858D08C0013CCD5 /* PathNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03DC1858D08B0013CCD5 /* PathNode.cpp */; };
+		5BAC03FD1858D08C0013CCD5 /* GoldPickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03DF1858D08B0013CCD5 /* GoldPickup.cpp */; };
+		5BAC03FE1858D08C0013CCD5 /* Pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03E11858D08B0013CCD5 /* Pickup.cpp */; };
+		5BAC03FF1858D08C0013CCD5 /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03E31858D08B0013CCD5 /* Projectile.cpp */; };
+		5BAC04001858D08C0013CCD5 /* BarbieHeadTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03E61858D08B0013CCD5 /* BarbieHeadTile.cpp */; };
+		5BAC04011858D08C0013CCD5 /* BearicadeTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03E91858D08B0013CCD5 /* BearicadeTile.cpp */; };
+		5BAC04021858D08C0013CCD5 /* BlanketTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03EB1858D08C0013CCD5 /* BlanketTile.cpp */; };
+		5BAC04031858D08C0013CCD5 /* GroundTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03ED1858D08C0013CCD5 /* GroundTile.cpp */; };
+		5BAC04041858D08C0013CCD5 /* LegoBrickTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03EF1858D08C0013CCD5 /* LegoBrickTile.cpp */; };
+		5BAC04051858D08C0013CCD5 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03F11858D08C0013CCD5 /* Tile.cpp */; };
+		5BAC04061858D08C0013CCD5 /* ToyCarTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03F31858D08C0013CCD5 /* ToyCarTile.cpp */; };
+		5BAC04071858D08C0013CCD5 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC03F61858D08C0013CCD5 /* Tower.cpp */; };
+		5BAC04141858D0D60013CCD5 /* Highscores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC04081858D0D60013CCD5 /* Highscores.cpp */; };
+		5BAC04151858D0D60013CCD5 /* LevelSelectMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC040A1858D0D60013CCD5 /* LevelSelectMenu.cpp */; };
+		5BAC04161858D0D60013CCD5 /* PauseScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC040C1858D0D60013CCD5 /* PauseScreen.cpp */; };
+		5BAC04171858D0D60013CCD5 /* SettingsMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC040E1858D0D60013CCD5 /* SettingsMenu.cpp */; };
+		5BAC04181858D0D60013CCD5 /* SplashMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC04101858D0D60013CCD5 /* SplashMenu.cpp */; };
+		5BAC04191858D0D60013CCD5 /* YouLose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC04121858D0D60013CCD5 /* YouLose.cpp */; };
+		5BAC041E1858D1120013CCD5 /* GDRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC041A1858D1120013CCD5 /* GDRandom.cpp */; };
+		5BAC041F1858D1120013CCD5 /* GDRandomSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAC041C1858D1120013CCD5 /* GDRandomSearch.cpp */; };
+		5BDCA5F1185A4A630045011E /* GameInfoSplash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCA5EF185A4A630045011E /* GameInfoSplash.cpp */; };
+		5BDCA5F4185A508B0045011E /* WinScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCA5F2185A508B0045011E /* WinScreen.cpp */; };
 		69177286181CB8AE0019F70B /* OpenGLTextureCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69177284181CB8AE0019F70B /* OpenGLTextureCache.cpp */; };
 		6917728C181DA4920019F70B /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6917728A181DA4900019F70B /* Level.cpp */; };
 		691A690617C54BF200CA7CA1 /* InputEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 691A690017C54BF200CA7CA1 /* InputEvent.cpp */; };
@@ -21,8 +48,6 @@
 		69449600181ABCBD00E030C8 /* ResourceConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 694495FD181ABCBD00E030C8 /* ResourceConstants.cpp */; };
 		69449611181ABCFA00E030C8 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69449601181ABCFA00E030C8 /* GameObject.cpp */; };
 		69449614181ABCFA00E030C8 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69449608181ABCFA00E030C8 /* Player.cpp */; };
-		69449615181ABCFA00E030C8 /* GroundTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6944960B181ABCFA00E030C8 /* GroundTile.cpp */; };
-		69449616181ABCFA00E030C8 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6944960D181ABCFA00E030C8 /* Tile.cpp */; };
 		6944961B181ABD4B00E030C8 /* LevelConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69449619181ABD4B00E030C8 /* LevelConstants.cpp */; };
 		69449621181ABE4B00E030C8 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6944961D181ABE4B00E030C8 /* MainMenu.cpp */; };
 		69449622181ABE4B00E030C8 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6944961F181ABE4B00E030C8 /* Menu.cpp */; };
@@ -89,6 +114,61 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B9399A61833DE6800EAC0A1 /* UIFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIFont.cpp; sourceTree = "<group>"; };
+		5B9399A71833DE6800EAC0A1 /* UIFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFont.h; sourceTree = "<group>"; };
+		5BAC03D41858D08B0013CCD5 /* Babysitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Babysitter.cpp; sourceTree = "<group>"; };
+		5BAC03D51858D08B0013CCD5 /* Babysitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Babysitter.h; sourceTree = "<group>"; };
+		5BAC03D61858D08B0013CCD5 /* Castle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Castle.cpp; sourceTree = "<group>"; };
+		5BAC03D71858D08B0013CCD5 /* Castle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Castle.h; sourceTree = "<group>"; };
+		5BAC03D81858D08B0013CCD5 /* Creep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Creep.cpp; sourceTree = "<group>"; };
+		5BAC03D91858D08B0013CCD5 /* Creep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creep.h; sourceTree = "<group>"; };
+		5BAC03DA1858D08B0013CCD5 /* PathFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathFinder.cpp; sourceTree = "<group>"; };
+		5BAC03DB1858D08B0013CCD5 /* PathFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathFinder.h; sourceTree = "<group>"; };
+		5BAC03DC1858D08B0013CCD5 /* PathNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathNode.cpp; sourceTree = "<group>"; };
+		5BAC03DD1858D08B0013CCD5 /* PathNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathNode.h; sourceTree = "<group>"; };
+		5BAC03DF1858D08B0013CCD5 /* GoldPickup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoldPickup.cpp; sourceTree = "<group>"; };
+		5BAC03E01858D08B0013CCD5 /* GoldPickup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldPickup.h; sourceTree = "<group>"; };
+		5BAC03E11858D08B0013CCD5 /* Pickup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pickup.cpp; sourceTree = "<group>"; };
+		5BAC03E21858D08B0013CCD5 /* Pickup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pickup.h; sourceTree = "<group>"; };
+		5BAC03E31858D08B0013CCD5 /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		5BAC03E41858D08B0013CCD5 /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		5BAC03E61858D08B0013CCD5 /* BarbieHeadTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarbieHeadTile.cpp; sourceTree = "<group>"; };
+		5BAC03E71858D08B0013CCD5 /* BarbieHeadTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarbieHeadTile.h; sourceTree = "<group>"; };
+		5BAC03E81858D08B0013CCD5 /* Bearicade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bearicade.h; sourceTree = "<group>"; };
+		5BAC03E91858D08B0013CCD5 /* BearicadeTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BearicadeTile.cpp; sourceTree = "<group>"; };
+		5BAC03EA1858D08C0013CCD5 /* BearicadeTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BearicadeTile.h; sourceTree = "<group>"; };
+		5BAC03EB1858D08C0013CCD5 /* BlanketTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlanketTile.cpp; sourceTree = "<group>"; };
+		5BAC03EC1858D08C0013CCD5 /* BlanketTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlanketTile.h; sourceTree = "<group>"; };
+		5BAC03ED1858D08C0013CCD5 /* GroundTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroundTile.cpp; sourceTree = "<group>"; };
+		5BAC03EE1858D08C0013CCD5 /* GroundTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundTile.h; sourceTree = "<group>"; };
+		5BAC03EF1858D08C0013CCD5 /* LegoBrickTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LegoBrickTile.cpp; sourceTree = "<group>"; };
+		5BAC03F01858D08C0013CCD5 /* LegoBrickTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegoBrickTile.h; sourceTree = "<group>"; };
+		5BAC03F11858D08C0013CCD5 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		5BAC03F21858D08C0013CCD5 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		5BAC03F31858D08C0013CCD5 /* ToyCarTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ToyCarTile.cpp; sourceTree = "<group>"; };
+		5BAC03F41858D08C0013CCD5 /* ToyCarTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyCarTile.h; sourceTree = "<group>"; };
+		5BAC03F61858D08C0013CCD5 /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
+		5BAC03F71858D08C0013CCD5 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower.h; sourceTree = "<group>"; };
+		5BAC04081858D0D60013CCD5 /* Highscores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Highscores.cpp; sourceTree = "<group>"; };
+		5BAC04091858D0D60013CCD5 /* Highscores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Highscores.h; sourceTree = "<group>"; };
+		5BAC040A1858D0D60013CCD5 /* LevelSelectMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelSelectMenu.cpp; sourceTree = "<group>"; };
+		5BAC040B1858D0D60013CCD5 /* LevelSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectMenu.h; sourceTree = "<group>"; };
+		5BAC040C1858D0D60013CCD5 /* PauseScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PauseScreen.cpp; sourceTree = "<group>"; };
+		5BAC040D1858D0D60013CCD5 /* PauseScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseScreen.h; sourceTree = "<group>"; };
+		5BAC040E1858D0D60013CCD5 /* SettingsMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsMenu.cpp; sourceTree = "<group>"; };
+		5BAC040F1858D0D60013CCD5 /* SettingsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenu.h; sourceTree = "<group>"; };
+		5BAC04101858D0D60013CCD5 /* SplashMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashMenu.cpp; sourceTree = "<group>"; };
+		5BAC04111858D0D60013CCD5 /* SplashMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashMenu.h; sourceTree = "<group>"; };
+		5BAC04121858D0D60013CCD5 /* YouLose.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YouLose.cpp; sourceTree = "<group>"; };
+		5BAC04131858D0D60013CCD5 /* YouLose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouLose.h; sourceTree = "<group>"; };
+		5BAC041A1858D1120013CCD5 /* GDRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GDRandom.cpp; sourceTree = "<group>"; };
+		5BAC041B1858D1120013CCD5 /* GDRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRandom.h; sourceTree = "<group>"; };
+		5BAC041C1858D1120013CCD5 /* GDRandomSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GDRandomSearch.cpp; sourceTree = "<group>"; };
+		5BAC041D1858D1120013CCD5 /* GDRandomSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRandomSearch.h; sourceTree = "<group>"; };
+		5BDCA5EF185A4A630045011E /* GameInfoSplash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameInfoSplash.cpp; sourceTree = "<group>"; };
+		5BDCA5F0185A4A630045011E /* GameInfoSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoSplash.h; sourceTree = "<group>"; };
+		5BDCA5F2185A508B0045011E /* WinScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WinScreen.cpp; sourceTree = "<group>"; };
+		5BDCA5F3185A508B0045011E /* WinScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinScreen.h; sourceTree = "<group>"; };
 		69177284181CB8AE0019F70B /* OpenGLTextureCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLTextureCache.cpp; sourceTree = "<group>"; };
 		69177285181CB8AE0019F70B /* OpenGLTextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLTextureCache.h; sourceTree = "<group>"; };
 		6917728A181DA4900019F70B /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
@@ -117,10 +197,6 @@
 		69449602181ABCFA00E030C8 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		69449608181ABCFA00E030C8 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		69449609181ABCFA00E030C8 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		6944960B181ABCFA00E030C8 /* GroundTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroundTile.cpp; sourceTree = "<group>"; };
-		6944960C181ABCFA00E030C8 /* GroundTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundTile.h; sourceTree = "<group>"; };
-		6944960D181ABCFA00E030C8 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
-		6944960E181ABCFA00E030C8 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
 		69449619181ABD4B00E030C8 /* LevelConstants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelConstants.cpp; sourceTree = "<group>"; };
 		6944961A181ABD4B00E030C8 /* LevelConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelConstants.h; sourceTree = "<group>"; };
 		6944961D181ABE4B00E030C8 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
@@ -263,6 +339,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BAC03DE1858D08B0013CCD5 /* Pickups */ = {
+			isa = PBXGroup;
+			children = (
+				5BAC03DF1858D08B0013CCD5 /* GoldPickup.cpp */,
+				5BAC03E01858D08B0013CCD5 /* GoldPickup.h */,
+				5BAC03E11858D08B0013CCD5 /* Pickup.cpp */,
+				5BAC03E21858D08B0013CCD5 /* Pickup.h */,
+			);
+			path = Pickups;
+			sourceTree = "<group>";
+		};
+		5BAC03E51858D08B0013CCD5 /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				5BAC03E61858D08B0013CCD5 /* BarbieHeadTile.cpp */,
+				5BAC03E71858D08B0013CCD5 /* BarbieHeadTile.h */,
+				5BAC03E81858D08B0013CCD5 /* Bearicade.h */,
+				5BAC03E91858D08B0013CCD5 /* BearicadeTile.cpp */,
+				5BAC03EA1858D08C0013CCD5 /* BearicadeTile.h */,
+				5BAC03EB1858D08C0013CCD5 /* BlanketTile.cpp */,
+				5BAC03EC1858D08C0013CCD5 /* BlanketTile.h */,
+				5BAC03ED1858D08C0013CCD5 /* GroundTile.cpp */,
+				5BAC03EE1858D08C0013CCD5 /* GroundTile.h */,
+				5BAC03EF1858D08C0013CCD5 /* LegoBrickTile.cpp */,
+				5BAC03F01858D08C0013CCD5 /* LegoBrickTile.h */,
+				5BAC03F11858D08C0013CCD5 /* Tile.cpp */,
+				5BAC03F21858D08C0013CCD5 /* Tile.h */,
+				5BAC03F31858D08C0013CCD5 /* ToyCarTile.cpp */,
+				5BAC03F41858D08C0013CCD5 /* ToyCarTile.h */,
+			);
+			path = Tiles;
+			sourceTree = "<group>";
+		};
+		5BAC03F51858D08C0013CCD5 /* Towers */ = {
+			isa = PBXGroup;
+			children = (
+				5BAC03F61858D08C0013CCD5 /* Tower.cpp */,
+				5BAC03F71858D08C0013CCD5 /* Tower.h */,
+			);
+			path = Towers;
+			sourceTree = "<group>";
+		};
 		6927EBBA1682383A00FE2F5C = {
 			isa = PBXGroup;
 			children = (
@@ -324,10 +442,26 @@
 		694495F1181ABCA200E030C8 /* Menus */ = {
 			isa = PBXGroup;
 			children = (
+				5BDCA5EF185A4A630045011E /* GameInfoSplash.cpp */,
+				5BDCA5F0185A4A630045011E /* GameInfoSplash.h */,
+				5BAC04081858D0D60013CCD5 /* Highscores.cpp */,
+				5BAC04091858D0D60013CCD5 /* Highscores.h */,
+				5BAC040A1858D0D60013CCD5 /* LevelSelectMenu.cpp */,
+				5BAC040B1858D0D60013CCD5 /* LevelSelectMenu.h */,
+				5BAC040C1858D0D60013CCD5 /* PauseScreen.cpp */,
+				5BAC040D1858D0D60013CCD5 /* PauseScreen.h */,
+				5BAC040E1858D0D60013CCD5 /* SettingsMenu.cpp */,
+				5BAC040F1858D0D60013CCD5 /* SettingsMenu.h */,
+				5BAC04101858D0D60013CCD5 /* SplashMenu.cpp */,
+				5BAC04111858D0D60013CCD5 /* SplashMenu.h */,
+				5BAC04121858D0D60013CCD5 /* YouLose.cpp */,
+				5BAC04131858D0D60013CCD5 /* YouLose.h */,
 				6944961D181ABE4B00E030C8 /* MainMenu.cpp */,
 				6944961E181ABE4B00E030C8 /* MainMenu.h */,
 				6944961F181ABE4B00E030C8 /* Menu.cpp */,
 				69449620181ABE4B00E030C8 /* Menu.h */,
+				5BDCA5F2185A508B0045011E /* WinScreen.cpp */,
+				5BDCA5F3185A508B0045011E /* WinScreen.h */,
 			);
 			name = Menus;
 			path = ../../Common/Menus;
@@ -342,6 +476,8 @@
 				6944962D181AD5A300E030C8 /* UIToggle.h */,
 				69449626181ACC3F00E030C8 /* UISideMenu.cpp */,
 				69449627181ACC3F00E030C8 /* UISideMenu.h */,
+				5B9399A61833DE6800EAC0A1 /* UIFont.cpp */,
+				5B9399A71833DE6800EAC0A1 /* UIFont.h */,
 			);
 			name = UI;
 			path = ../../Common/UI;
@@ -363,17 +499,6 @@
 				694495FE181ABCBD00E030C8 /* ResourceConstants.h */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		6944960A181ABCFA00E030C8 /* Tiles */ = {
-			isa = PBXGroup;
-			children = (
-				6944960B181ABCFA00E030C8 /* GroundTile.cpp */,
-				6944960C181ABCFA00E030C8 /* GroundTile.h */,
-				6944960D181ABCFA00E030C8 /* Tile.cpp */,
-				6944960E181ABCFA00E030C8 /* Tile.h */,
-			);
-			path = Tiles;
 			sourceTree = "<group>";
 		};
 		69449618181ABD4B00E030C8 /* Level */ = {
@@ -493,6 +618,10 @@
 		698D703D169DF1040098C7D5 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				5BAC041A1858D1120013CCD5 /* GDRandom.cpp */,
+				5BAC041B1858D1120013CCD5 /* GDRandom.h */,
+				5BAC041C1858D1120013CCD5 /* GDRandomSearch.cpp */,
+				5BAC041D1858D1120013CCD5 /* GDRandomSearch.h */,
 				698D703E169DF1100098C7D5 /* MathUtils.cpp */,
 				698D703F169DF1100098C7D5 /* MathUtils.h */,
 			);
@@ -525,6 +654,21 @@
 		69BB408E1699BAA500B970A9 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				5BAC03D41858D08B0013CCD5 /* Babysitter.cpp */,
+				5BAC03D51858D08B0013CCD5 /* Babysitter.h */,
+				5BAC03D61858D08B0013CCD5 /* Castle.cpp */,
+				5BAC03D71858D08B0013CCD5 /* Castle.h */,
+				5BAC03D81858D08B0013CCD5 /* Creep.cpp */,
+				5BAC03D91858D08B0013CCD5 /* Creep.h */,
+				5BAC03DA1858D08B0013CCD5 /* PathFinder.cpp */,
+				5BAC03DB1858D08B0013CCD5 /* PathFinder.h */,
+				5BAC03DC1858D08B0013CCD5 /* PathNode.cpp */,
+				5BAC03DD1858D08B0013CCD5 /* PathNode.h */,
+				5BAC03DE1858D08B0013CCD5 /* Pickups */,
+				5BAC03E31858D08B0013CCD5 /* Projectile.cpp */,
+				5BAC03E41858D08B0013CCD5 /* Projectile.h */,
+				5BAC03E51858D08B0013CCD5 /* Tiles */,
+				5BAC03F51858D08C0013CCD5 /* Towers */,
 				69BB408F1699BAA500B970A9 /* Game.cpp */,
 				69BB40901699BAA500B970A9 /* Game.h */,
 				69449601181ABCFA00E030C8 /* GameObject.cpp */,
@@ -533,7 +677,6 @@
 				6917728B181DA4910019F70B /* Level.h */,
 				69449608181ABCFA00E030C8 /* Player.cpp */,
 				69449609181ABCFA00E030C8 /* Player.h */,
-				6944960A181ABCFA00E030C8 /* Tiles */,
 			);
 			name = Game;
 			path = ../../Common/Game;
@@ -778,8 +921,6 @@
 				69449600181ABCBD00E030C8 /* ResourceConstants.cpp in Sources */,
 				69449611181ABCFA00E030C8 /* GameObject.cpp in Sources */,
 				69449614181ABCFA00E030C8 /* Player.cpp in Sources */,
-				69449615181ABCFA00E030C8 /* GroundTile.cpp in Sources */,
-				69449616181ABCFA00E030C8 /* Tile.cpp in Sources */,
 				6944961B181ABD4B00E030C8 /* LevelConstants.cpp in Sources */,
 				69449621181ABE4B00E030C8 /* MainMenu.cpp in Sources */,
 				69449622181ABE4B00E030C8 /* Menu.cpp in Sources */,
@@ -788,6 +929,33 @@
 				6944962E181AD5A300E030C8 /* UIToggle.cpp in Sources */,
 				69177286181CB8AE0019F70B /* OpenGLTextureCache.cpp in Sources */,
 				6917728C181DA4920019F70B /* Level.cpp in Sources */,
+				5B9399A81833DE6900EAC0A1 /* UIFont.cpp in Sources */,
+				5BAC03F81858D08C0013CCD5 /* Babysitter.cpp in Sources */,
+				5BAC03F91858D08C0013CCD5 /* Castle.cpp in Sources */,
+				5BAC03FA1858D08C0013CCD5 /* Creep.cpp in Sources */,
+				5BAC03FB1858D08C0013CCD5 /* PathFinder.cpp in Sources */,
+				5BAC03FC1858D08C0013CCD5 /* PathNode.cpp in Sources */,
+				5BAC03FD1858D08C0013CCD5 /* GoldPickup.cpp in Sources */,
+				5BAC03FE1858D08C0013CCD5 /* Pickup.cpp in Sources */,
+				5BAC03FF1858D08C0013CCD5 /* Projectile.cpp in Sources */,
+				5BAC04001858D08C0013CCD5 /* BarbieHeadTile.cpp in Sources */,
+				5BAC04011858D08C0013CCD5 /* BearicadeTile.cpp in Sources */,
+				5BAC04021858D08C0013CCD5 /* BlanketTile.cpp in Sources */,
+				5BAC04031858D08C0013CCD5 /* GroundTile.cpp in Sources */,
+				5BAC04041858D08C0013CCD5 /* LegoBrickTile.cpp in Sources */,
+				5BAC04051858D08C0013CCD5 /* Tile.cpp in Sources */,
+				5BAC04061858D08C0013CCD5 /* ToyCarTile.cpp in Sources */,
+				5BAC04071858D08C0013CCD5 /* Tower.cpp in Sources */,
+				5BAC04141858D0D60013CCD5 /* Highscores.cpp in Sources */,
+				5BAC04151858D0D60013CCD5 /* LevelSelectMenu.cpp in Sources */,
+				5BAC04161858D0D60013CCD5 /* PauseScreen.cpp in Sources */,
+				5BAC04171858D0D60013CCD5 /* SettingsMenu.cpp in Sources */,
+				5BAC04181858D0D60013CCD5 /* SplashMenu.cpp in Sources */,
+				5BAC04191858D0D60013CCD5 /* YouLose.cpp in Sources */,
+				5BAC041E1858D1120013CCD5 /* GDRandom.cpp in Sources */,
+				5BAC041F1858D1120013CCD5 /* GDRandomSearch.cpp in Sources */,
+				5BDCA5F1185A4A630045011E /* GameInfoSplash.cpp in Sources */,
+				5BDCA5F4185A508B0045011E /* WinScreen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

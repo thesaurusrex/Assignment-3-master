@@ -1,8 +1,8 @@
 //SEE RESOURCECONSTANTS.H
 
 
+//INCLUDE
 #include "ResourceConstants.h"
-
 
 //Tile textures
 const char* RES_SELECTED_TILE = "SelectedTile";
@@ -20,3 +20,6 @@ const char* RES_TILE_BARBIEHEAD = "Tile_BarbieHead";
 const char* RES_TILE_TOYCAR = "Tile_ToyCars";
 const char* RES_TILE_BLANKET = "Tile_Blanket";
 const char* RES_TILE_BEARICADE = "Tile_Bearicade";
+
+//SPLASH
+const char* SPLASH_BUTTON_MAINMENU = "SPLASH_Button_MainMenu";

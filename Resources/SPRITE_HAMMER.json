@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "SPRITE_Hammer1",
+	"frame": {"x":2,"y":2,"w":58,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":22,"w":58,"h":32},
+	"sourceSize": {"w":58,"h":58}
+},
+{
+	"filename": "SPRITE_Hammer2",
+	"frame": {"x":2,"y":36,"w":54,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":6,"w":54,"h":50},
+	"sourceSize": {"w":58,"h":58}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "SPRITE_HAMMER.png",
+	"format": "RGBA8888",
+	"size": {"w":64,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:db92da6f4eefca2e77375ef58b81d2cb:1/1$"
+}
+}

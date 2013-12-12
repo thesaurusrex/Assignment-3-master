@@ -1,11 +1,15 @@
 /*
-NAME:	Bradley Flood
-DATE:	2013-03-07
-PURP:	Level Constants
-RITE:	Copyright (c) 2013 Algonquin College. All rights reserved.
+RIGHTS:			Copyright (c) 2013 Algonquin College. All rights reserved.
+STUDENT:		Breanna Henry
+CREATION DATE:	7/3/2013
+COURSE NUMBER:	GAM1514
+PROFESSOR:		Bradley Flood
+PURPOSE:		Level Constants
+MODIFIED:		by Breanna, created by Brad
 */
 
 
+//DEFINE
 #ifndef LEVEL_CONSTANTS_H
 #define LEVEL_CONSTANTS_H
 
@@ -13,14 +17,27 @@ RITE:	Copyright (c) 2013 Algonquin College. All rights reserved.
 //add additional tile types in this enum
 enum TileType
 {
-  TileTypeGround = 0,
-  TileTypeLegoBrick = 1,
-  TileTypeBarbieHead = 2,
-  TileTypeToyCar = 3,
-  TileTypeBlanket = 4,
-  TileTypeBearicade = 5,
-  TileTypeUnknown,
-  TileTypeCount
+	TileTypeGround = 1,		//(0000 0001)
+	TileTypeLegoBrick = 2,	//(0000 0010)
+	TileTypeBarbieHead = 4,	//(0000 0100)
+	TileTypeToyCar = 8,		//(0000 1000)
+	TileTypeBlanket = 16,	//(0001 0000)
+	TileTypeBearicade = 32,	//(0010 0000)
+	TileTypeCastle = 128,
+
+	//This Count MUST now be manually updated when a new tile is added
+	TileTypeCount = 6,
+	TileTypeUnknown = -1
+};
+
+//Pickup Enum
+enum PickupType
+{
+	PickupTypeGold = 64,	//(0100 0000);
+
+	//This Count MUST now be manually updated when a new pickup is added
+	PickupTypeCount = 1,
+	PickupTypeUnknown = -1
 };
 
 //Level editor screen name

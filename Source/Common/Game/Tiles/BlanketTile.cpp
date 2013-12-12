@@ -1,14 +1,19 @@
 //SEE BlanketTILE.H
 
+//INCLUDE
 #include "BlanketTile.h"
 #include "../../OpenGL/OpenGL.h"
 #include "../../Constants/Constants.h"
 
 
 //CONSTRUCTOR--------------------------------------
-BlanketTile::BlanketTile(const char* textureName) : Tile(TileTypeBlanket, textureName, TRUE)
+BlanketTile::BlanketTile(const char* textureName) : 
+			Tile(TileTypeBlanket, textureName, false, false, false, 1)
 {
-	//Walkable
+	//Not Walkable
+	//cant shoot
+	//cant be destroyed
+	//costs 1 gold
 }
 
 //DESTRUCTOR---------------------------------------

@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "SPRITE_CREEP_Baby1",
+	"frame": {"x":2,"y":62,"w":58,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":58},
+	"sourceSize": {"w":58,"h":58}
+},
+{
+	"filename": "SPRITE_CREEP_Baby2",
+	"frame": {"x":2,"y":2,"w":58,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":58},
+	"sourceSize": {"w":58,"h":58}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "SPRITE_CREEP_BABY.png",
+	"format": "RGBA8888",
+	"size": {"w":64,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:afadfc0f6188df8da086b0eeaf4c3f61:1/1$"
+}
+}

@@ -195,7 +195,10 @@ void LevelEditor::mouseMovementEvent(float deltaX, float deltaY, float positionX
     {        
         if(m_SelectedTileIndex != -1 && m_IsMouseDown == true)
         {
-            m_Level->setTileTypeAtPosition((TileType)m_SelectedTileIndex, positionX, positionY);
+			TileType types[] = {TileTypeGround, TileTypeLegoBrick, TileTypeBarbieHead, TileTypeToyCar, TileTypeBlanket, TileTypeBearicade};
+			TileType type = types[m_SelectedTileIndex];
+
+            m_Level->setTileTypeAtPosition(type, positionX, positionY);
         }
     }
 
@@ -236,7 +239,10 @@ void LevelEditor::mouseLeftClickUpEvent(float positionX, float positionY)
     {
         if(m_SelectedTileIndex != -1 && m_TilesMenu->isShowing() == false)
         {
-            m_Level->setTileTypeAtPosition((TileType)m_SelectedTileIndex, positionX, positionY);
+			TileType types[] = {TileTypeGround, TileTypeLegoBrick, TileTypeBarbieHead, TileTypeToyCar, TileTypeBlanket, TileTypeBearicade};
+			TileType type = types[m_SelectedTileIndex];
+
+            m_Level->setTileTypeAtPosition(type, positionX, positionY);
         }
     }
     
@@ -268,6 +274,7 @@ void LevelEditor::mouseLeftClickUpEvent(float positionX, float positionY)
 //KEY UP EVENT---------------------------------------------------------------------------
 void LevelEditor::keyUpEvent(int keyCode)
 {
+	//ON TAB, BRING UP SIDE MENUS
     if(keyCode == KEYCODE_TAB)
     {
         if(m_TilesMenu != NULL)
@@ -280,6 +287,21 @@ void LevelEditor::keyUpEvent(int keyCode)
 			m_DruthersMenu->isShowing() == true ? m_DruthersMenu->hide() : m_DruthersMenu->show();
 		}
     }
+	//ON T, PLACE PICKUPS?
+	else if(keyCode == KEYCODE_T)
+	{
+		if(m_Level != NULL)
+		{
+			m_Level->setPickupTypeAtIndex(PickupTypeGold, 101);
+		}
+	}
+	else if(keyCode == KEYCODE_Y)
+	{
+		if(m_Level != NULL)
+		{
+			m_Level->setPickupTypeAtIndex(PickupTypeUnknown, 101);
+		}
+	}
     else
     {
         if(m_Level != NULL)
